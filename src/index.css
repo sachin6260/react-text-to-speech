@@ -1,0 +1,87 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Change font family to Roboto */
+}
+
+/* App container */
+.app {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, color 0.3s; /* Smooth transition for background and color */
+}
+
+/* Dark mode styles */
+.app.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: white; /* Default text color in dark mode */
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Dark mode heading styles */
+.app.dark-mode h1 {
+  color: white; /* Heading color in dark mode */
+}
+
+/* Textarea styling */
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Select dropdown styling */
+select {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center; /* Align items vertically */
+  gap: 5px; /* Space between icon and text */
+  transition: background 0.3s; /* Smooth background transition */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3; /* Darker button color on hover */
+}
+
+/* Dark mode button styles */
+.app.dark-mode button {
+  background-color: #1e1e1e; /* Dark button background */
+  color: white; /* Button text color in dark mode */
+}
+
+/* Dark mode button hover effect */
+.app.dark-mode button:hover {
+  background-color: #333; /* Darker hover state */
+}
+
+/* Subheading styles */
+h2 {
+  margin-top: 20px;
+}
